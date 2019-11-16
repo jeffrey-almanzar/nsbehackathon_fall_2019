@@ -5,45 +5,24 @@ function About(props) {
     <div id="about" className="about-container">
       <h2 className="section-sub-heading">About Us</h2>
       <p>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum. Why do we use it? It is a long established fact that a
-        reader will be distracted by the readable content of a page when looking
-        at its layout. The point of using Lorem Ipsum is that it has a
-        more-or-less normal distribution of letters, as opposed to using
-        'Content here, content here', making it look like readable English. Many
-        desktop publishing packages and web page editors now use Lorem Ipsum as
-        their default model text, and a search for 'lorem ipsum' will uncover
-        many web sites still in their infancy. Various versions have evolved
-        over the years, sometimes by accident, sometimes on purpose (injected
-        humour and the like).
+      Feed the Bronx is a non-profit organization that provides free food to people in the Bronx.
+      This is a web application available for both Desktop and Mobile devices. Our services are open 
+      to homelesses, students and low-income community. 
       </p>
-
+      <h2 className="section-sub-heading">Mission</h2>
+      <p>                    
+      "Our mission is to feed people who are suffering from
+      hunger by providing free food services.We end hunger 
+      and support the community"
+      <h2 className="section-sub-heading">What make us different?</h2>
       <p>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum. Why do we use it? It is a long established fact that a
-        reader will be distracted by the readable content of a page when looking
-        at its layout. The point of using Lorem Ipsum is that it has a
-        more-or-less normal distribution of letters, as opposed to using
-        'Content here, content here', making it look like readable English. Many
-        desktop publishing packages and web page editors now use Lorem Ipsum as
-        their default model text, and a search for 'lorem ipsum' will uncover
-        many web sites still in their infancy. Various versions have evolved
-        over the years, sometimes by accident, sometimes on purpose (injected
-        humour and the like).
+      
+        Feed the Bronx provide access to different resources. 
+        We’re an organization that provides food directly to the starving people of the Bronx.
+        Our app is creating a network of food pantries that will direct donors or individuals 
+        who really need the food to other food banks and food pantries.Our app allows the community
+        to expand the reach of the app by allowing users to submit food banks and food pantries they know about. 
+      </p>
       </p>
     </div>
   );

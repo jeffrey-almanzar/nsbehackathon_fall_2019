@@ -14,26 +14,6 @@ class App extends React.Component {
       chat: true
     };
   }
-<<<<<<< HEAD
-
-  componentDidMount() {
-    //CapitalOne API
-    // fetch('http://api.reimaginebanking.com/')
-    // .then((resp) => resp.json)                    //Transform the data into JSON format
-    // .then(function(data) {
-      
-    // })
-  }
-
-  displayInfo = () => {
-    const { locations } = this.state;
-    const container = [];
-    locations.forEach(place => {
-      container.push(<Card name={place.name} address={place.address} key={place.id} />);
-    });
-
-    return <div className="main-card-container">{container}</div>;
-=======
   displayChat = () => {
     return (
       <div id="chat-box" className="chat-box">
@@ -45,7 +25,6 @@ class App extends React.Component {
         ></iframe>
       </div>
     );
->>>>>>> d69e3579473e7533271ea29ccaf42ab4962bbc5a
   };
 
   hideChat = () => {

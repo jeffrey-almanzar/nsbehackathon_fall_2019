@@ -44,15 +44,21 @@ class NavigationComponent extends React.Component {
               </NavItem>
               <NavItem>
                 <Link to="/search">
-                  <span className="nav-link">Search</span>
+                  <span className="nav-link">Search Assistance</span>
                 </Link>
               </NavItem>
               <NavItem>
                 <NavLink href="/#join">Join Us</NavLink>
               </NavItem>
+              <NavItem>
+                <NavLink href="/#our-team">Our Team</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="/#contact">Donate!</NavLink>
+              </NavItem>
 
               <NavItem>
-                <NavLink href="/#contact">Contact</NavLink>
+                <NavLink href="/#contact">Contact Us</NavLink>
               </NavItem>
             </Nav>
           </Collapse>

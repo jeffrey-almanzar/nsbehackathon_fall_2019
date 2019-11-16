@@ -5,6 +5,7 @@ function Join(props) {
     <div>
       <div id="join" className="form">
         <h2 className="section-sub-heading">Join Us</h2>
+        <p> Donors Volunteers Partners </p>
         <div className="form-input_container">
           <input placeholder="Name" />
           <input placeholder="Last Name" />
