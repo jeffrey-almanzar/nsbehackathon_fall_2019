@@ -65,9 +65,14 @@ class SearchPage extends React.Component {
       });
     }
 
-    
-    //this.setState({locations: filtered})
+  }
 
+  emptyResult = () => {
+    return(
+      <div className="empty-result-container">
+        <h2>Sorry, no results</h2>
+      </div>
+    )
   }
 
   render() {
@@ -76,7 +81,7 @@ class SearchPage extends React.Component {
       <div>
         <NavigationComponent />
         <Search handleChange={this.handleChange} handleClick={this.handleSearch} />
-        {locations.length ? this.displayInfo() : null}
+        {locations.length ? this.displayInfo() : this.emptyResult()}
       </div>
     );
   }

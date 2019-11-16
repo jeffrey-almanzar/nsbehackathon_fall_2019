@@ -2,7 +2,7 @@ import React from "react";
 
 function About(props) {
   return (
-    <div className="about-container">
+    <div id="about" className="about-container">
       <h2 className="section-sub-heading">About Us</h2>
       <p>
         Lorem Ipsum is simply dummy text of the printing and typesetting
