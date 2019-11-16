@@ -7,10 +7,11 @@ import {
   Nav,
   NavItem,
   NavLink,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem } from 'reactstrap';
+  // UncontrolledDropdown,
+  // DropdownToggle,
+  // DropdownMenu,
+  //DropdownItem 
+} from 'reactstrap';
 
 class NavigationComponent extends React.Component {
   constructor(props) {

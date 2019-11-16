@@ -4,7 +4,7 @@ function Search(props) {
   return (
     <div className="search-component">
       <input className="search-input" />
-      <button>Search</button>
+      <button onClick={props.handleClick}>Search</button>
     </div>
   );
 }
