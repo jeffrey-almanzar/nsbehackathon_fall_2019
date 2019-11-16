@@ -1,4 +1,11 @@
 # Scripts
 /backend/scripts
+
+#Unformatted data
 /data
+
+#Node modules
 /back_end/node_modules
+
+#Capital one api
+/capitalone

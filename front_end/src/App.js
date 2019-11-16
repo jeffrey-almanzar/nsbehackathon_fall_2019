@@ -13,7 +13,14 @@ class App extends React.Component {
     };
   }
 
-  componentDidMount() {}
+  componentDidMount() {
+    //CapitalOne API
+    // fetch('http://api.reimaginebanking.com/')
+    // .then((resp) => resp.json)                    //Transform the data into JSON format
+    // .then(function(data) {
+      
+    // })
+  }
 
   displayInfo = () => {
     const { locations } = this.state;

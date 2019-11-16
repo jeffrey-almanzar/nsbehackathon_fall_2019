@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Charts</title>
+        <script type="text/javascript" src="charts.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js"></script>
+        <link >
+
+    </head>
+    <body>
+        <canvas id="myChart"></canvas>
+        <script>
+            var ctx = document.getElementById('myChart').getContext('2d');
+            var options = {};
+            data = {
+                // These labels appear in the legend and in the tooltips when hovering different arcs
+                labels: [
+                    'People experiencing food insecurity in the Bronx',
+                    'People not experiencing food insecurity in the Bronx',
+                    
+                ],
+                datasets:[{
+                        label:"My First Dataset",
+                        data: [375000,1471000],
+                        backgroundColor:["rgb(54, 162, 235)", "rgb(255, 40, 132)"],//"rgb(255, 205, 86)"]
+                    }]
+            };
+
+            var myPieChart = new Chart(ctx, {
+                type: 'pie',
+                data: data,
+                options: options
+            });
+        </script>
+    </body>
+</html>
