@@ -15,6 +15,9 @@ const Locations = database.define("locations", {
   },
   phone: {
     type: Sequelize.TEXT
+  },
+  description:{
+    type: Sequelize.TEXT
   }
 },
 

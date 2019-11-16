@@ -1,17 +1,20 @@
 import React from "react";
 import NavigationComponent from "./components/Nav";
 import CarouselComponent from "./components/Carousel";
-import Search from "./components/Search";
+import About from "./components/About";
+import Join from "./components/Join";
+import chatLogo from "./assets/icons8-chat-bubble-90.png";
 import "./App.css";
-import Card from "./components/Card";
+import Contact from "./components/Contact";
 
 class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      locations: []
+      chat: true
     };
   }
+<<<<<<< HEAD
 
   componentDidMount() {
     //CapitalOne API
@@ -30,27 +33,45 @@ class App extends React.Component {
     });
 
     return <div className="main-card-container">{container}</div>;
+=======
+  displayChat = () => {
+    return (
+      <div id="chat-box" className="chat-box">
+        <iframe
+          allow="microphone;"
+          width="350"
+          height="430"
+          src="https://console.dialogflow.com/api-client/demo/embedded/5345a277-1bfb-4ab8-beb2-af29c5666950"
+        ></iframe>
+      </div>
+    );
+>>>>>>> d69e3579473e7533271ea29ccaf42ab4962bbc5a
   };
 
-  handleSearch = () => {
-    fetch("http://localhost:3001/locations")
-      .then(response => response.json())
-      .then(data => {
-        this.setState({ locations: data });
-      })
-      .catch(err => {
-        console.log(err);
-      });
+  hideChat = () => {
+    this.setState({ chat: !this.state.chat });
   };
+
+  handleScroll = () => {
+    alert("You scroll")
+  }
 
   render() {
-    const { locations } = this.state;
+    const { chat } = this.state;
+
     return (
-      <div>
+      <div id="body" onScroll={this.handleScroll}>
         <NavigationComponent />
         <CarouselComponent />
-        <Search handleClick={this.handleSearch} />
-        {locations.length ? this.displayInfo() : null}
+        <About />
+        {chat ? this.displayChat() : null}
+        <div onClick={this.hideChat} className="chat-icon-container">
+          <img src={chatLogo} alt="" />
+        </div>
+        <div className="join-container">
+          <Join />
+        </div>
+        <Contact />
       </div>
     );
   }

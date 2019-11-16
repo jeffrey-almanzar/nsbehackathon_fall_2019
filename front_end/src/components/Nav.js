@@ -1,4 +1,6 @@
-import React from 'react';
+import React from "react";
+import logo from "../assets/logo.png";
+import { Link, Redirect } from "react-router-dom";
 import {
   Collapse,
   Navbar,
@@ -6,12 +8,12 @@ import {
   NavbarBrand,
   Nav,
   NavItem,
-  NavLink,
+  NavLink
   // UncontrolledDropdown,
   // DropdownToggle,
   // DropdownMenu,
-  //DropdownItem 
-} from 'reactstrap';
+  //DropdownItem
+} from "reactstrap";
 
 class NavigationComponent extends React.Component {
   constructor(props) {
@@ -30,16 +32,27 @@ class NavigationComponent extends React.Component {
   render() {
     return (
       <div>
-        <Navbar color="light" light expand="md">
-          <NavbarBrand href="/">Our Name</NavbarBrand>
+        <Navbar fixed="top" color="light" light expand="md">
+          <NavbarBrand href="/">
+            <img src={logo} alt="" />
+          </NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink href="/components/">About</NavLink>
+                <NavLink href="/#about">About</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="https://github.com/reactstrap/reactstrap">Contact</NavLink>
+                <Link to="/search">
+                  <span className="nav-link">Search</span>
+                </Link>
+              </NavItem>
+              <NavItem>
+                <NavLink href="/#join">Join Us</NavLink>
+              </NavItem>
+
+              <NavItem>
+                <NavLink href="/#contact">Contact</NavLink>
               </NavItem>
             </Nav>
           </Collapse>
@@ -48,6 +61,5 @@ class NavigationComponent extends React.Component {
     );
   }
 }
-
 
 export default NavigationComponent;
