@@ -31,9 +31,28 @@ class App extends React.Component {
     this.setState({ chat: !this.state.chat });
   };
 
-  handleScroll = () => {
-    alert("You scroll")
-  }
+  handleJoin = () => {
+    const name = document.getElementById("name").value;
+    const lastname = document.getElementById("lastname").value;
+    const email = document.getElementById("email").value;
+
+    const user = {
+      name,
+      lastname,
+      email
+    };
+
+    console.log(user)
+
+    fetch("http://localhost:3001/add_volunteer", {
+      method: 'POST',
+      headers: {
+        'Accept': 'application/json',
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(user)
+    });
+  };
 
   render() {
     const { chat } = this.state;
@@ -48,7 +67,7 @@ class App extends React.Component {
           <img src={chatLogo} alt="" />
         </div>
         <div className="join-container">
-          <Join />
+          <Join join={this.handleJoin} />
         </div>
         <Contact />
       </div>

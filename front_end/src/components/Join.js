@@ -7,11 +7,10 @@ function Join(props) {
         <h2 className="section-sub-heading">Join Us</h2>
         <p> Donors Volunteers Partners </p>
         <div className="form-input_container">
-          <input placeholder="Name" />
-          <input placeholder="Last Name" />
-          <input placeholder="Email" />
-          <input placeholder="Password" />
-          <button className="search-btn form-submit">Join</button>
+          <input id="name" placeholder="Name" />
+          <input id="lastname" placeholder="Last Name" />
+          <input id="email" placeholder="Email" />
+          <button onClick={props.join} className="search-btn form-submit">Join</button>
         </div>
       </div>
     </div>

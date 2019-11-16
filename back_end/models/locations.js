@@ -28,8 +28,3 @@ const Locations = database.define("locations", {
 
 module.exports = Locations;
 
-// id: {
-//   type: Sequelize.INTEGER,
-//   primaryKey: true,
-//   autoIncrement: true
-// },
