@@ -4,28 +4,6 @@ import CarouselComponent from "./components/Carousel";
 import Search from "./components/Search";
 import "./App.css";
 import Card from "./components/Card";
-const data = [
-  {
-    name: "Beautiful NAme Here",
-    address: "1723 Dr Martin L King Jr Blvd"
-  },
-  {
-    name: "Beautiful Name Here",
-    address: "1723 Dr Martin L King Jr Blvd"
-  },
-  {
-    name: "Beautiful Name Here",
-    address: "1723 Dr Martin L King Jr Blvd"
-  },
-  {
-    name: "Beautiful Name Here",
-    address: "1723 Dr Martin L King Jr Blvd"
-  },
-  {
-    name: "Beautiful Name Here",
-    address: "1723 Dr Martin L King Jr Blvd"
-  }
-];
 
 class App extends React.Component {
   constructor(props) {
@@ -41,14 +19,21 @@ class App extends React.Component {
     const { locations } = this.state;
     const container = [];
     locations.forEach(place => {
-      container.push(<Card name={place.name} address={place.address} />);
+      container.push(<Card name={place.name} address={place.address} key={place.id} />);
     });
 
     return <div className="main-card-container">{container}</div>;
   };
 
   handleSearch = () => {
-    this.setState({ locations: data });
+    fetch("http://localhost:3001/locations")
+      .then(response => response.json())
+      .then(data => {
+        this.setState({ locations: data });
+      })
+      .catch(err => {
+        console.log(err);
+      });
   };
 
   render() {
