@@ -14,7 +14,7 @@ class SearchPage extends React.Component {
   }
 
   componentDidMount() {
-    fetch("http://localhost:3001/locations")
+    fetch("http://localhost:3001")
       .then(response => response.json())
       .then(data => {
         this.setState({ locations: data });
@@ -55,7 +55,7 @@ class SearchPage extends React.Component {
       });
 
     }else{
-      fetch("http://localhost:3001/locations")
+      fetch("http://localhost:3001")
       .then(response => response.json())
       .then(data => {
         this.setState({ locations: data });

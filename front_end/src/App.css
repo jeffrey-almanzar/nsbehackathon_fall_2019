@@ -12,20 +12,33 @@
   padding: 0.3rem 0;
   font-size: 1.1rem;
   width: 400px;
-  color: #EC1C24;
+  color: #b3d240;
   outline: 0;
+  padding-left: 0.3rem;
 }
+.chat-box{
+  position: fixed;
+  top: 20%;
+  right: 0;
+}
+
+/* chat box */
+iframe{
+  border: 0;
+}
+
+
 
 .card-container {
   display: flex;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   margin-right: 1rem;
 }
 
 .card-address {
-  border-bottom: 1px solid black;
-  border-top: 1px solid black;
-  border-right: 1px solid black;
+  border-bottom: 1px solid #b3d240;
+  border-top: 1px solid #b3d240;
+  /* border-right: 1px solid #b3d240; */
   padding: 1.5rem 1rem 1rem;
   width:800px;
 }
@@ -86,32 +99,15 @@
   margin: 1rem auto;
 }
 
-.certification-list-container {
-  width: 100%;
-  margin: 3.5rem auto;
-}
 
 .section-sub-heading {
   margin: 2.5rem auto 2.5rem;
-}
-
-.certification-list {
-  display: flex;
-  justify-content: space-between;
-  list-style-type: none;
-}
-
-.certification-list img {
-  width: 24px;
-  height: 24px;
-}
-
-.certification-list li {
-  display: flex;
+  text-align: center;
 }
 
 .about-container {
   margin: 5rem auto;
+  width: 80%;
 }
 
 .footer p {
