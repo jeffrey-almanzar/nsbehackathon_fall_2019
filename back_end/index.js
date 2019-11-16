@@ -21,12 +21,23 @@ database
     console.log("Error " + err);
   });
 
-app.get("/locations", (req, res) => {
-  Locations.findAll()
+app.get("/locations/:value", (req, res) => {
+  if(req.params.value){
+    Locations.findAll()
+    .then(locations => {
+      const filtered = locations.filter( place => {
+        return place.name.toLowerCase().includes(req.params.value) || place.address.toLowerCase().includes(req.params.value)
+      })
+      res.json(filtered);
+    })
+  }else{
+    Locations.findAll()
     .then(locations => {
       res.json(locations);
     })
     .catch(err => res.json(err));
+  }
+  
 });
 
 app.listen(3001, () => console.log("server is running"));

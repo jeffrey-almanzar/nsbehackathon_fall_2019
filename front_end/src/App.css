@@ -1,8 +1,8 @@
 .carousel-item {
-  height: 30vh;
+  height: 100vh;
 }
 .search-component {
-  margin: 1.5rem auto;
+  margin: 10.5rem auto;
   width: 80%;
   display: flex;
   justify-content: center;
@@ -11,6 +11,9 @@
 .search-input {
   padding: 0.3rem 0;
   font-size: 1.1rem;
+  width: 400px;
+  color: #EC1C24;
+  outline: 0;
 }
 
 .card-container {
@@ -23,13 +26,14 @@
   border-bottom: 1px solid black;
   border-top: 1px solid black;
   border-right: 1px solid black;
-  padding: 1.5rem 1rem;
+  padding: 1.5rem 1rem 1rem;
+  width:800px;
 }
 
 .main-card-container {
   display: flex;
   justify-content: center;
-  /* flex-direction: column; */
+  flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
   margin-top: 3.5rem;
@@ -37,6 +41,15 @@
 
 .carousel-item > img {
   width: 100%;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #EC1C24;
+}
+
+.search-btn{
+  background-color: #EC1C24;
+  color: #fff;
 }
 
 @media (max-width: 600px) {
@@ -110,4 +123,9 @@
   text-align: center;
   background-color: gray;
   margin-bottom: 0;
+}
+
+/* boostrap */
+.navbar {
+  padding: 0 1rem;
 }
