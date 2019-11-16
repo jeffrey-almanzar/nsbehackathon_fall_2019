@@ -39,10 +39,8 @@ class NavigationComponent extends React.Component {
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
-            <NavItem>
-                <Link to="/#about">
-                  <span className="nav-link">About</span>
-                </Link>
+              <NavItem>
+                <NavLink href="/#about">About</NavLink>
               </NavItem>
               <NavItem>
                 <Link to="/search">
@@ -50,15 +48,11 @@ class NavigationComponent extends React.Component {
                 </Link>
               </NavItem>
               <NavItem>
-                <Link to="/">
-                  <span className="nav-link">Join Us</span>
-                </Link>
+                <NavLink href="/#join">Join Us</NavLink>
               </NavItem>
-              
+
               <NavItem>
-                <Link to="/">
-                  <span className="nav-link">Contact</span>
-                </Link>
+                <NavLink href="/#contact">Contact</NavLink>
               </NavItem>
             </Nav>
           </Collapse>

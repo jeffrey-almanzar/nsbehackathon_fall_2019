@@ -3,7 +3,7 @@ import React from "react";
 function Join(props) {
   return (
     <div>
-      <div className="form">
+      <div id="join" className="form">
         <h2 className="section-sub-heading">Join Us</h2>
         <div className="form-input_container">
           <input placeholder="Name" />

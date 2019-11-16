@@ -5,7 +5,7 @@ import gmail from "../assets/gmail.png";
 
 function Contact(props) {
   return (
-    <div className="contact">
+    <div id="contact" className="contact">
       <div className="social-media">
         <a target="_blank" href="https://www.facebook.com/Feed-the-Bronx-104430357691508/">
           <img src={facebook} alt="" />
