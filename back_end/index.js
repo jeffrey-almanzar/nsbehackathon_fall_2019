@@ -24,41 +24,9 @@ database
 app.get("/locations", (req, res) => {
   Locations.findAll()
     .then(locations => {
-      let allLocations = [];
-    //   for (let i = 0; i < locations.length; i++) {
-    //     let name = locations[i].name;
-    //     let address = locations.address;
-    //     let phone = locations.phone;
-
-    //     allLocations.push({ name, address, phone });
-    //   }
-      res.json(locations)
-      //res.json({ Locations: allLocations });
+      res.json(locations);
     })
     .catch(err => res.json(err));
 });
 
 app.listen(3001, () => console.log("server is running"));
-
-// const data = [
-//     {
-//       name: "Beautiful NAme Here",
-//       address: "1723 Dr Martin L King Jr Blvd"
-//     },
-//     {
-//       name: "Beautiful Name Here",
-//       address: "1723 Dr Martin L King Jr Blvd"
-//     },
-//     {
-//       name: "Beautiful Name Here",
-//       address: "1723 Dr Martin L King Jr Blvd"
-//     },
-//     {
-//       name: "Beautiful Name Here",
-//       address: "1723 Dr Martin L King Jr Blvd"
-//     },
-//     {
-//       name: "Beautiful Name Here",
-//       address: "1723 Dr Martin L King Jr Blvd"
-//     }
-//   ];
