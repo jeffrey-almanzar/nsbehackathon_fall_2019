@@ -1,0 +1,418 @@
+{
+    "pantries": [{
+        "name": "Andrew Jackson Tenants Association",
+        "address": "285 East 156th Street",
+        "phone_number": "(718) 401-1324",
+        "description": "The center is only open on Tuesday and Thursday."
+    }, {
+        "name": "Deeper Life",
+        "address": "213 East 144th Street",
+        "phone_number": "(718) 292-7883",
+        "description": "The non-profit has a soup kitchen as well and limited clothing."
+    }, {
+        "name": "Missionaries of Charity",
+        "address": "344 East 146th Street",
+        "phone_number": "(718) 292-0019",
+        "description": "Runs a shelter, soup kitchen, and more."
+    }, {
+        "name": "Missionary of Charities",
+        "address": "Address is 344 East 146th Street",
+        "phone_number": "(718) 665-3054",
+        "description": ""
+    }, {
+        "name": "Salvation Army",
+        "address": "Location is 425 East 159th Street",
+        "phone_number": "(718) 665-8473",
+        "description": "Various social services are offered, in addition to the food pantry. Explore their clothing closet or thrift store. Snacks for children or students may be available, as well as Christmas meals. Emergency aid may include funds for housing costs, rent, or utility bills. Also look into employment assistance."
+    }, {
+        "name": "The Community Kitchen",
+        "address": "2763 Webster Avenue",
+        "phone_number": "(718) 220-4892",
+        "description": "There is also an on site food pantry."
+    }, {
+        "name": "Christ the King Church",
+        "address": "Main address is 141 Marcy Place",
+        "phone_number": "(718) 538-5546",
+        "description": ""
+    }, {
+        "name": "Highbridge Community Life Cent",
+        "address": "Main address is 979 Ogden Avenue",
+        "phone_number": "(718) 293-4352",
+        "description": ""
+    }, {
+        "name": "Missionary Church of Christ",
+        "address": "937 Teller Avenue",
+        "phone_number": "(718) 538-2325",
+        "description": ""
+    }, {
+        "name": "Iglesia Arca De Salvacion",
+        "address": "1983 Jermome Avenue, 2nd Floor",
+        "phone_number": "(718) 294-4237",
+        "description": "Free food, groceries, and perishable goods may be passed out."
+    }, {
+        "name": "Morris Senior Center",
+        "address": "Location is 80 East 181st Street",
+        "phone_number": "(718) 933-5300",
+        "description": "A number of meals and food items are offered for senior citizens in the Bronx. A small donation is appreciated. Also offers other activities and workshops."
+    }, {
+        "name": "Resurrection and Life C&S",
+        "address": "1275 Edward L. Grant Highway",
+        "phone_number": "(718) 617-2399",
+        "description": ""
+    }, {
+        "name": "Abundant Life Tabernacle, Inc.",
+        "address": "Main address is 2692 Third Avenue",
+        "phone_number": "(718) 292-8734",
+        "description": "A food pantry is offered to those who have a referral."
+    }, {
+        "name": "Door of Salvation Ministries",
+        "address": "460 East 134th Street",
+        "phone_number": "(718) 993-5532",
+        "description": ""
+    }, {
+        "name": "Evangelical Garifuna Church",
+        "address": "344 Brook Avenue",
+        "phone_number": "(718) 585-6818",
+        "description": ""
+    }, {
+        "name": "Borinquen Court Senior Center",
+        "address": "285 East 138th Street",
+        "phone_number": "",
+        "description": ""
+    }, {
+        "name": "St. Ann's Church",
+        "address": "295 St. Ann's Avenue",
+        "phone_number": "(718) 585-5632",
+        "description": "A soup kitchen and food pantry is available on site."
+    }, {
+        "name": "St. Benedict the Moor",
+        "address": "283 St. Ann's Avenue",
+        "phone_number": "(718) 665-9693",
+        "description": "Bags of groceries or a hot lunch may be served to the homeless and very low income."
+    }, {
+        "name": "The Salvation Army Bronx Citadel",
+        "address": "425 East 159th Street",
+        "phone_number": "(718) 665-8472",
+        "description": "As with most Salvation Army centers in the Bronx and NYC, offers free food, applications for SNAP, shelter, and other support for families."
+    }, {
+        "name": "Thessalonica Christian Church",
+        "address": "313 St. Ann's Avenue",
+        "phone_number": "(718) 665-0182",
+        "description": ""
+    }, {
+        "name": "Douglas Leon Senior Citizen",
+        "address": "Main address 735 East 152nd Street",
+        "phone_number": "(718) 292-7129",
+        "description": ""
+    }, {
+        "name": "Ruth Fernandez Family Residence",
+        "address": "760-762 Fox Street",
+        "phone_number": "(718) 328-8180",
+        "description": ""
+    }, {
+        "name": "St. Margaret's Episcopal Church",
+        "address": "Address is 940 East 156th Street",
+        "phone_number": "(718) 589-4430",
+        "description": ""
+    }, {
+        "name": "The Hope Line",
+        "address": "Location is 421 East 155th Street",
+        "phone_number": "(718) 402-1101",
+        "description": "Monday to Thursday is the hours of the pantry."
+    }, {
+        "name": "United Bronx Parents, Inc.",
+        "address": "773 Prospect Avenue",
+        "phone_number": "(718) 991-7100",
+        "description": "You will need ID for family members, referrals, and other documentation. On site soup kitchen."
+    }, {
+        "name": "Way-Out Church Ministries, Inc.",
+        "address": "Address of the food bank is 520 East 148th Street",
+        "phone_number": "(718) 665-8069",
+        "description": ""
+    }, {
+        "name": "Gospel Hill Baptist Church, Inc.",
+        "address": "3265 Third Avenue",
+        "phone_number": "(718) 585-6730",
+        "description": ""
+    }, {
+        "name": "Holy Tabernacle Church, Inc.",
+        "address": "3780 Third Avenue",
+        "phone_number": "(718) 379-1484",
+        "description": "May have canned goods, meals for children, and basic household goods, such as diapers."
+    }, {
+        "name": "San Damiano/St. Augustin",
+        "address": "1183 Franklin Avenue",
+        "phone_number": "(718) 328-0484",
+        "description": "Runs a food bank for the low income and people facing a crisis."
+    }, {
+        "name": "The Paraclete Foundation",
+        "address": "1157 Fulton Avenue",
+        "phone_number": "(718) 328-8620",
+        "description": ""
+    }, {
+        "name": "Bread of Life Mission",
+        "address": "2176 Grand Concourse",
+        "phone_number": "(718) 584-0155",
+        "description": "Meals, fresh fruits, vegetables, and other food stuff may be passed out. Please donate as well to the pantry if you can. Serves a limited area."
+    }, {
+        "name": "Bronx S.D.A. Church",
+        "address": "1695 Washington Avenue",
+        "phone_number": "(718) 994-4626",
+        "description": ""
+    }, {
+        "name": "Footstub of the Teacher",
+        "address": "619-621 East 180th Street",
+        "phone_number": "(718) 681-5459",
+        "description": "May have snacks for students and children too."
+    }, {
+        "name": "Guiding Light of Truth Church",
+        "address": "1827 Anthony Avenue",
+        "phone_number": "(718) 583-6041",
+        "description": ""
+    }, {
+        "name": "Salvation Army - Tremont Corps",
+        "address": "Address is 2121 Washington Avenue",
+        "phone_number": "",
+        "description": "Some of what is available includes a pantry. Christmas and Thanksgiving meals, turkeys, and gifts for children may be offered. Case managers will also help the working poor obtain financial aid and explore public assistance programs too."
+    }, {
+        "name": "St. Luke's Food Pantry",
+        "address": "623 East 138th Street",
+        "phone_number": "",
+        "description": "(718) 665-6677"
+    }, {
+        "name": "Thorpe Family Residence",
+        "address": "2160 Mapes Avenue",
+        "phone_number": "(718) 933-7312",
+        "description": ""
+    }, {
+        "name": "Anjuman Hefaztul Al Islam",
+        "address": "Main address is 365 East 198th Street",
+        "phone_number": "(718) 364-0579",
+        "description": ""
+    }, {
+        "name": "Christina Home Care Food Pantry",
+        "address": "2394 Grand Concourse",
+        "phone_number": "(718) 733-3779",
+        "description": "Bags of groceries, meals, and more may be passed out to all who need assistance. Bring ID and documentation."
+    }, {
+        "name": "New St. John Baptist",
+        "address": "Pantry is located at 2409 Lorillard Place",
+        "phone_number": "(718) 220-4148",
+        "description": ""
+    }, {
+        "name": "Our Lady of Refuge",
+        "address": "290 East 196th Street",
+        "phone_number": "(718) 367-4690",
+        "description": ""
+    }, {
+        "name": "Part of the Solution",
+        "address": "Main address is 2763 Webster Avenue",
+        "phone_number": "(718) 220-4892",
+        "description": ""
+    }, {
+        "name": "Part of the Solution",
+        "address": "2763 Webster Avenue",
+        "phone_number": "(718) 220-4892",
+        "description": "The non-profit charity supports the poor. Emergency food boxes and other aid is offered by volunteers and staff."
+    }, {
+        "name": "Second Prince of Peace Outreach",
+        "address": "464 East 183rd Street",
+        "phone_number": "(718) 842-0880",
+        "description": ""
+    }, {
+        "name": "Cardinal (No Suggestions) Family",
+        "address": "953 Southern Boulevard, 3rd Floor",
+        "phone_number": "(718) 542-0255",
+        "description": "If a box of food is not offered, get referrals to food stamp or WIC application sites too."
+    }, {
+        "name": "Come World Ministries",
+        "address": "1034 Prospect Avenue",
+        "phone_number": "(718) 617-4293",
+        "description": ""
+    }, {
+        "name": "Esperanza Y Buen Samaritan Mi",
+        "address": "1419 Vise Avenue",
+        "phone_number": "(718) 328-1752",
+        "description": "Hot meals and foodstuff are offered. May have surplus federal government commodities too."
+    }, {
+        "name": "Resurrection and Life C&S 2",
+        "address": "Address of the pantry is 870 East 163rd Street",
+        "phone_number": "(917) 655-8595",
+        "description": ""
+    }, {
+        "name": "Spanish Intervale Sda Church",
+        "address": "1064 Intervale Avenue",
+        "phone_number": "(718) 931-0449",
+        "description": ""
+    }, {
+        "name": "St. Jerome Community Food Pantry",
+        "address": "230 Alexander Avenue",
+        "phone_number": "(718) 861-3518",
+        "description": "You need to have proof of residency, including identification, in order to use the pantry."
+    }, {
+        "name": "Word of Life Ministries-Bronx",
+        "address": "1306 Southern Boulevard",
+        "phone_number": "(718) 378-7713",
+        "description": "Can provide short term support, referrals and food assistance. A number of resources are offered for the poor."
+    }, {
+        "name": "Gethsemane Baptist Church",
+        "address": "771 Fairmount Place",
+        "phone_number": "(718) 588-1328",
+        "description": ""
+    }, {
+        "name": "Soundview Baptist Church",
+        "address": "1461 Leland Avenue",
+        "phone_number": "(718) 319-8387",
+        "description": "The church has both a soup kitchen and a food pantry on site."
+    }, {
+        "name": "St. Anthony of Padua",
+        "address": "1496 Commonwealth Avenue",
+        "phone_number": "(718) 409-4590",
+        "description": "In addition to food, may have a blanket or hygiene items for the homeless. Get referrals to shelters too."
+    }, {
+        "name": "Aging in America",
+        "address": "1500 Pelham Parkway South",
+        "phone_number": "(718) 824-4004",
+        "description": "Food assistance is available for seniors over the age of 60, their spouses, and older Bronx residents. Donations are welcome."
+    }, {
+        "name": "Dios Levantando Al Caido, Inc.",
+        "address": "Main address is 1406-08 Zerega Avenue",
+        "phone_number": "(917) 345-5065",
+        "description": ""
+    }, {
+        "name": "East Bronx Hunger Program",
+        "address": "1725 Castle Hill Avenue",
+        "phone_number": "(718) 409-0538",
+        "description": "Distributes clothing, meals, bags of food, and more to the low income and working poor. Explore all services offered by this Bronx charity."
+    }, {
+        "name": "St. Paul's Lutheran Church",
+        "address": "Address: 1891 McGraw Avenue",
+        "phone_number": "(718) 822-4535",
+        "description": "Provides food regardless of religion, age, or gender."
+    }, {
+        "name": "Iglesia El Buen Camino",
+        "address": "792 East 161st Street",
+        "phone_number": "(718) 617-3032",
+        "description": ""
+    }, {
+        "name": "Our Lady of Grace Social Outreach",
+        "address": "3985 Bronx Wood Avenue",
+        "phone_number": "(718) 652-4817",
+        "description": "Receive assistance such as meals and groceries."
+    }, {
+        "name": "City of Faith Church of God",
+        "address": "3453-3445 White Plains Road",
+        "phone_number": "(718) 798-3052",
+        "description": ""
+    }, {
+        "name": "Immaculate Conception Church",
+        "address": "Covers zip code of 10467",
+        "phone_number": "",
+        "description": "Phone (718) 653-3720"
+    }, {
+        "name": "Pentecost Care Community",
+        "address": "621 East 216th Street",
+        "phone_number": "(718) 515-5366",
+        "description": ""
+    }, {
+        "name": "Project Bravo at Monteiore",
+        "address": "Address: 55 East 210th Street",
+        "phone_number": "(718) 652-8426",
+        "description": ""
+    }, {
+        "name": "R.A.I.N Boston Road Senior Center",
+        "address": "2424 Boston Road",
+        "phone_number": "(718) 547-8827",
+        "description": ""
+    }, {
+        "name": "St. Luke's Community Program",
+        "address": "661 East 219th Street",
+        "phone_number": "(718) 882-3060",
+        "description": ""
+    }, {
+        "name": "2nd Church in the Antilles",
+        "address": "Address 9 East 199th Street",
+        "phone_number": "",
+        "description": "Food boxes may be passed out to children, parents, and others. They may contain basic needs and health foodstuffs."
+    }, {
+        "name": "Bronx Youth Services Corp/gyc",
+        "address": "2530 Jerome Avenue",
+        "phone_number": "",
+        "description": "Seniors from the Bronx get priority over referrals and walk ins. Thanksgiving dinner is also offered too."
+    }, {
+        "name": "Creston Avenue Baptist Church",
+        "address": "114 East 185th Street",
+        "phone_number": "(718) 367-2810",
+        "description": "Works with other churches in the Bronx to help students, children, and the low income. Free food, holiday meals, gifts for children during Christmas and more may be offered. Other goods including clothing and household products."
+    }, {
+        "name": "Fordham Lutheran Church",
+        "address": "The food pantry is located at 2427 Morris Avenue",
+        "phone_number": "(718) 367-8330",
+        "description": ""
+    }, {
+        "name": "Love Gospel Assembly",
+        "address": "2315 Grand Concourse",
+        "phone_number": "(718) 295-6366",
+        "description": ""
+    }, {
+        "name": "Tolentine-Zeiser Community Center",
+        "address": "Location - 2345 University Avenue",
+        "phone_number": "(718) 220-2824",
+        "description": ""
+    }, {
+        "name": "Church of the Holy Rosary",
+        "address": "1510 Adie Avenue",
+        "phone_number": "(718) 379-4432",
+        "description": ""
+    }, {
+        "name": "Eastchester Gardens Tenant Association",
+        "address": "1134 Burke Avenue",
+        "phone_number": "(718) 655-2596",
+        "description": ""
+    }, {
+        "name": "R.A.I.N. Eastchester Senior Center",
+        "address": "1246 Burke Avenue",
+        "phone_number": "(718) 882-8513",
+        "description": "The non profit may have breakfast and lunch for seniors. Additional assistance may be offered for the home bound in the region. A senior center and those related activities for the elderly are offered too, such as Medicare sessions, Meals on Wheels, and recreational activities."
+    }, {
+        "name": "Victory Sda Church",
+        "address": "1271 Burke Avenue",
+        "phone_number": "(718) 231-1870",
+        "description": "The church will support members of the parish. Groceries, emergency food boxes, and fresh foods may be offered at no cost. Call the charity/non-profit for information and referrals too."
+    }, {
+        "name": "Congregation Yeshiva Telshe Al",
+        "address": "640 West 249th Street",
+        "phone_number": "(718) 601-1681",
+        "description": ""
+    }, {
+        "name": "Bronx Pentecostal Deliverance",
+        "address": "1755 Watson Avenue",
+        "phone_number": "(718) 822-6929",
+        "description": "Free groceries, beans, formula and more may be offered."
+    }, {
+        "name": "Fellowship Covenant Church",
+        "address": "720 Castle Hill Avenue",
+        "phone_number": "(718) 829-2116",
+        "description": "Or you can call City Harvest at 917-351-8777 for referral"
+    }, {
+        "name": "10473 Holy Cross Church",
+        "address": "Address - 600 Soundview Avenue",
+        "phone_number": "(718) 893-5551",
+        "description": ""
+    }, {
+        "name": "Soundview Presbyterian Church",
+        "address": "760 Soundview Avenue",
+        "phone_number": "(718) 842-2287",
+        "description": ""
+    }, {
+        "name": "Bright Temple Avenue Church",
+        "address": "812 Faile Street",
+        "phone_number": "(718) 542-7777",
+        "description": "Soup Kitchen serves breakfast, lunch, and dinner. A food pantry is available too."
+    }, {
+        "name": "Black Forum of Co-Op City",
+        "address": "177 Dreiser Loop, Room #20",
+        "phone_number": "(718) 320-8035",
+        "description": "No description"
+    }]
+}
